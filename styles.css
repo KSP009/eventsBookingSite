@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+}
+#my {
+  color: red;
+  font-weight: bolder;
+}
+.tales {
+  width: 100vw;
+  height: 86vh;
+}
+.titleone {
+  margin-top: 25px;
+  text-align: center;
+  color: rgb(131, 128, 124);
+  border-bottom: 1px solid rgb(255, 0, 0);
+  padding-bottom: 18px;
+  margin-bottom: 25px;
+}
+
+#card1,
+#card2,
+#card3,
+#card4,
+#card5 {
+  width: 12rem;
+  height: 18rem;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  cursor: pointer;
+  border: none;
+  border-radius: 7px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  margin: 15px;
+  margin-bottom: 20px;
+  line-height: 1;
+  padding-left: 15px;
+  color: rgb(150, 137, 137);
+}
+#card1 {
+  background-image: url(assets/imgs/arjun-mj-G_BXPjwod-c-unsplash.jpg);
+}
+#card2 {
+  background-image: url(assets/imgs/ben-wicks-Ns96HhR-b-c-unsplash.jpg);
+}
+#card3 {
+  background-image: url(assets/imgs/cleyton-ewerton-LjAAUZadNrg-unsplash.jpg);
+}
+#card4 {
+  background-image: url(assets/imgs/conor-samuel-T8p7Ak4HjF4-unsplash.jpg);
+}
+#card5 {
+  background-image: url(assets/imgs/eyasu-etsub-eiC19xZt0G0-unsplash.jpg);
+}
+#card1:hover {
+  opacity: 0.6;
+  color: white;
+}
+#card2:hover {
+  opacity: 0.6;
+  color: rgb(255, 255, 255);
+}
+#card3:hover {
+  opacity: 0.6;
+  color: rgb(255, 255, 255);
+}
+#card4:hover {
+  opacity: 0.6;
+  color: rgb(255, 255, 255);
+}
+#card5:hover {
+  opacity: 0.6;
+  color: rgb(255, 255, 255);
+}
+.first {
+  margin-bottom: 100px;
+}
+.foot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border-top: 1px solid rgb(255, 0, 0); */
+  color: blanchedalmond;
+  background-color: #343a40;
+  margin-top: 30px;
+}
